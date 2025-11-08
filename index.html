@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fa">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CyberStore — Neon Gear</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="logo-line">CYBER</span><span class="logo-accent">STORE</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#products">Producs</a>
+      <a href="#offers">News</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+<canvas id="bg-canvas"></canvas>
+<div id="cursor-glow"></div>
+
+<main id="home">
+  <section class="hero">
+    <h1>Cyber Store</h1>
+    <p>Welcome to future store</p>
+    <div class="hero-ctas">
+      <button class="btn primary" data-scroll="#products">Buy</button>
+      <button class="btn ghost" data-scroll="#offers">Suggestions</button>
+    </div>
+  </section>
+
+  <section id="products" class="section products-section">
+    <h2 class="section-title">Top Products</h2>
+    <div class="grid products-grid">
+      <article class="product-card">
+        <div class="media"><img src="https://images.unsplash.com/photo-1606760227091-3a5fa9e3cdab?auto=format&fit=crop&w=1200&q=60" alt="Neon Jacket"></div>
+        <h3>Neon Samurai Jacket</h3>
+        <p class="desc">Neon fibers, bulletproof, tail adjustment</p>
+        <div class="meta">
+          <span class="price">₿ 0.045</span>
+          <button class="buy-btn">Purchase</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="media"><img src="https://images.unsplash.com/photo-1579108160481-2a84b47d2375?auto=format&fit=crop&w=1200&q=60" alt="Bionic Arm"></div>
+        <h3>Bionic Arm V8</h3>
+        <p class="desc">Supernatural power, fast configuration.</p>
+        <div class="meta">
+          <span class="price">₿ 0.28</span>
+          <button class="buy-btn">Purchase</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="media"><img src="https://images.unsplash.com/photo-1604072366595-1d4bc6e05d35?auto=format&fit=crop&w=1200&q=60" alt="Cyber Visor"></div>
+        <h3>Cyber Visor 4K</h3>
+        <p class="desc">Night vision, overloaded information, low consumption.</p>
+        <div class="meta">
+          <span class="price">₿ 0.09</span>
+          <button class="buy-btn">Purchase</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="media"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=60" alt="Neon Pack"></div>
+        <h3>Neon Pack</h3>
+        <p class="desc">Power cells and modular modules for missions</p>
+        <div class="meta">
+          <span class="price">₿ 0.02</span>
+          <button class="buy-btn">Purchase</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="offers" class="section offers-section">
+    <h2 class="section-title">Newest</h2>
+    <div class="grid offers-grid">
+      <article class="offer-card">
+        <h3>⚡ MK-II Cyber Blade</h3>
+        <p>Sharper, lighter, silent mode.</p>
+        <button class="buy-btn">Details</button>
+      </article>
+      <article class="offer-card">
+        <h3>🚀Holographic clothing</h3>
+        <p>A cover made of light; change the appearance with a touch.</p>
+        <button class="buy-btn">Details</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="blog" class="section blog-section">
+    <h2 class="section-title">Blog</h2>
+    <div class="grid blog-grid">
+      <article class="post-card">
+        <h3> Cyber Visor 4K</h3>
+        <p>A new perspective on augmented reality — our experience with its early version.</p>
+        <button class="read-btn">More</button>
+      </article>
+      <article class="post-card">
+        <h3>How pepsi over powers kaka cola</h3>
+        <p>A brief overview of trends and safety points.</p>
+        <button class="read-btn">More</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact us</h2>
+    <div class="contact-wrap">
+      <div class="socials">
+        <a href="https://instagram.com" target="_blank" aria-label="instagram" class="soc"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+        <a href="https://t.me" target="_blank" aria-label="telegram" class="soc"><svg viewBox="0 0 24 24"><path d="M2 12l20-8-6 16-4-6-10 6z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+        <a href="https://wa.me/" target="_blank" aria-label="whatsapp" class="soc"><svg viewBox="0 0 24 24"><path d="M17 2a10 10 0 1 0 0 20 9 9 0 0 0-3-0.5L21 22l-1.5-7A10 10 0 0 0 17 2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+        <a href="https://github.com" target="_blank" aria-label="github" class="soc"><svg viewBox="0 0 24 24"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.2-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 .1.8-1.1.8-1.1-.8-1.6-2-1.1-2-1.1-1.4 1-.1 1 .1 1 .9 1.4 2.3 1 2.9.8.1-.7.5-1 .9-1.2-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0C17 4.2 18 4.5 18 4.5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.6-2.7 5.5-5.3 5.8.6.5 1 1.4 1 2.7v4c0 .4.2.7.9.6A12 12 0 0 0 12 .5z" fill="none" stroke="currentColor" stroke-width="0.9"/></svg></a>
+      </div>
+
+      <form id="contactForm">
+        <input name="name" type="text" placeholder="Name&Lastname" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+        <div class="form-actions">
+          <button type="button" id="muteToggle" class="btn mute">Mute</button>
+          <button type="submit" class="btn primary">Send</button>
+        </div>
+        <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">© 2025 CyberStore — All rights reserved - Owner ArianBoudelai</footer>
+
+<audio id="bgm" playsinline loop>
+  <source src="Ambient Glitch  Ambient soundtrack  Drone music - Royalty free stock music by Synthezx.mp3" type="audio/mp3" />
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
